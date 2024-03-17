@@ -88,6 +88,8 @@ Log into the node and run:
 crictl --runtime-endpoint unix:///run/containerd.sock logs <container-id>
 tail /var/log/containers/<container-name_container-id>
 
+kubectl get events
+
 API Resources:
 
 kubectl api-resources: List all available API resources.
