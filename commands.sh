@@ -16,6 +16,7 @@ kubectl get pods: List all pods in the current namespace.
 kubectl describe pod <pod-name>: Show details about a pod.
 kubectl logs <pod-name>: Display logs for a pod.
 kubectl exec -it <pod-name> -- /bin/bash: Open a shell in a running pod.
+kubectl exec -ti <pod-name> -- cat /etc/resolv.conf
 
 Deployment Operations:
 
