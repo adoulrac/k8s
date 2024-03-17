@@ -149,3 +149,8 @@ kubectl apply --dry-run=client -f <filename.yaml>: Dry-run to validate the confi
 kubectl get deployments --show-labels
 kubectl get pods --show-labels
 kubectl get services --show-labels
+
+Export YAML:
+kubectl get [resource type] -n [namespace] [resource Name] -o yaml > [New file name]
+
+
