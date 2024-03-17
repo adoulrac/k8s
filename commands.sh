@@ -83,6 +83,7 @@ kubectl top pods: Display resource usage for pods.
 
 kubectl logs <pod-name>
 kubectl logs <pod-name> -c <container-name>
+kubectl logs <pod-name> -n <namespace> <pod-name>
 Log into the node and run:
 crictl --runtime-endpoint unix:///run/containerd.sock logs <container-id>
 tail /var/log/containers/<container-name_container-id>
