@@ -48,7 +48,7 @@ kubectl port-forward <pod-name> <local-port>:<remote-port>: Forward ports to a p
 Resource Definitions:
 
 kubectl get <resource>: List resources (e.g., deployments, pods, services).
-kubectl explain <resource>: Show the resource's fields and their types.
+kubectl explain <resource>: Show the resource fields and their types.
 
 Deleting Resources:
 
